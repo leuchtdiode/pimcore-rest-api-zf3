@@ -14,20 +14,21 @@
     ],
     "keywords": [
         "Zend Framework 3",
-	"pimcore",
-	"Module"
+		"pimcore",
+		"Module"
     ],
     "require": {
         "php": ">=7.1",
         "zendframework/zend-http": "~2.5",
-	"netresearch/jsonmapper": "^0.11.0"
+		"netresearch/jsonmapper": "^0.11.0"
     },
     "suggest": {
-	"zendframework/zend-cache": "Using Zend cache to minimize REST API calls"
+		"zendframework/zend-cache": "Using Zend cache to minimize REST API calls"
     },
     "autoload": {
-	"psr-0": {
-	    "PimcoreRestApi\\": "src/"
-	}
-    }
+		"psr-0": {
+			"PimcoreRestApi\\": "src/"
+		}
+    },
+	"optimize-autoloader": true
 }
