@@ -70,8 +70,6 @@ class Api implements PimcoreApi
 
 		$this->httpClient->setUri($uri);
 
-		error_log($uri); // TODO
-
 		try
 		{
 			$response = $this->httpClient->send();
