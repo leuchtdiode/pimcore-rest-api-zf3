@@ -1,6 +1,6 @@
-# pimcore (REST API) module for Zend Framework 2
+# pimcore (REST API) module for Zend Framework 3
 
-Zend Framework 2 module for accessing [pimcore](https://github.com/pimcore/pimcore) via its REST API.
+Zend Framework 3 module for accessing [pimcore](https://github.com/pimcore/pimcore) via its REST API.
 
 ## Installation 
 
