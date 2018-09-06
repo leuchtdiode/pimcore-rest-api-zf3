@@ -24,7 +24,7 @@ class Document
 	private $modificationDate;
 
 	/**
-	 * @var int
+	 * @var int|null
 	 */
 	private $userModification;
 
@@ -205,7 +205,7 @@ class Document
 	}
 
 	/**
-	 * @return int
+	 * @return int|null
 	 */
 	public function getUserModification()
 	{
@@ -213,7 +213,7 @@ class Document
 	}
 
 	/**
-	 * @param int $userModification
+	 * @param int|null $userModification
 	 */
 	public function setUserModification($userModification)
 	{
